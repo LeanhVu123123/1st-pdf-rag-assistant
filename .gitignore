@@ -1,0 +1,26 @@
+# API keys
+.env
+.env.* # vd .env.local, .env.production
+!.env.example  # dấu ! là ngoại trừ
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.venv-test/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PDF documents
+papers/*
+!papers/.gitkeep
+
+# FAISS indexes
+faiss_index/
+*.faiss
+*.pkl
+
+#Vscode
+.vscode/
